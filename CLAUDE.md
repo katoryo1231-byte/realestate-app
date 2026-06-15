@@ -17,3 +17,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Architecture
 
 (検討中 - 開発が進むにつれて更新)
+
+## デプロイ情報
+
+- 本番URL：https://プロジェクト名.vercel.app
+- Supabaseプロジェクト名：realestate-app
