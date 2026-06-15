@@ -94,6 +94,59 @@ body {
   background-color: #4b5563;
 }
 
+/* 物件登録・編集フォーム */
+.property-form {
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px;
+}
+
+.property-form h2 {
+  margin-top: 0;
+}
+
+.form-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.form-actions button,
+.property-form button {
+  padding: 8px 16px;
+  background-color: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.form-actions button.secondary {
+  background-color: #9ca3af;
+}
+
+.card-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.card-actions button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 13px;
+  cursor: pointer;
+  background-color: #2563eb;
+  color: #fff;
+}
+
+.card-actions button.danger {
+  background-color: #dc2626;
+}
+
 .property-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
